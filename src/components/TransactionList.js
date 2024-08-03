@@ -16,7 +16,7 @@ function TransactionList() {
   ;
   return (
     <div>
-      TransactionList
+      <h1>Transaction List</h1>
       {displayList}
     </div>
   );
