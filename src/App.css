@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald:wght@200..700&family=Silkscreen:wght@400;700&display=swap');
 .App {
   text-align: center;
  background-color: rgb(246, 248, 248);
@@ -13,10 +14,15 @@
 .search-bar{
   padding: 10px;
 }
+.Transaction-form{
+  font-family: "Fredericka the Great", serif;
+
+}
 .bankheader h1 {
   font-size: 40px;
   font-style: italic;
-  color: rgb(253, 253, 253);
+  color: rgb(155, 132, 132);
+  font-family: "Fredericka the Great", serif;
 }
 .form {
   background-color: rgb(148, 144, 140);

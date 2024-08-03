@@ -45,7 +45,7 @@ function Form() {
     <div className="form">
       <form className="form-items" onSubmit={handleSubmitForm}>
         <div>
-          <h1>Transaction Form</h1>
+          <h1 className="Transaction-form">Transaction Form</h1>
         </div>
         <tr>
           <td>

@@ -17,7 +17,7 @@ function TransactionList() {
   ));
   return (
     <div>
-      <h1>Transaction List</h1>
+      <h1 className="Transaction-form">Transaction List</h1>
       <table className="table">
         <thead>
         <tr>
