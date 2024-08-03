@@ -2,6 +2,13 @@
   text-align: center;
   background-color: rgb(255, 138, 91);
 }
+.bankheader{
+  background-color: rgb(226, 138, 138);
+}
+.bankheader h1{
+  font-size: 40px;
+  font-style: italic;
+}
 
 .form-items {
   padding: 40px;
