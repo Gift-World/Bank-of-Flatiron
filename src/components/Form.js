@@ -4,45 +4,43 @@ function Form() {
   const [date, setDate] = useState("2024-08-03");
   const [description, setDescription] = useState("");
   const [category, setCategory] = useState("");
-  const [amount, setAmount] = useState("")
-//    console.log(date);
-//    console.log(description);
-//    console.log(category);
-//    console.log(amount);
-   
+  const [amount, setAmount] = useState("");
+  //    console.log(date);
+  //    console.log(description);
+  //    console.log(category);
+  //    console.log(amount);
+
   const handleOnChangeDate = (e) => setDate(e.target.value);
   const handleOnChangeDescription = (e) => setDescription(e.target.value);
   const handleOnChangeCategory = (e) => setCategory(e.target.value);
   const handleOnChangeAmount = (e) => setAmount(e.target.value);
-  const handleSubmitForm=(e)=>{
-    e.preventDefault()
+  const handleSubmitForm = (e) => {
+    e.preventDefault();
 
-    const formData={
-        date:date,
-        description:description,
-        category:category
-    }
+    const formData = {
+      date: date,
+      description: description,
+      category: category,
+    };
     // console.log("datass");
     // console.log(formData);
-    fetch("http://localhost:3000/transactions",{
-        method:"POST",
-        headers:{
-            "Content-Type":"application/json",
-            "Accept":"application/json"
-        },
-        body:JSON.stringify(formData)
-
+    fetch("https://flatiron-bank-backend.vercel.app/transactions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(formData),
     })
-.then(res=>res.json())
-.then(data=>data("posted successfully"))
-.catch(error=>console.log(error))
+      .then((res) => res.json())
+      .then((data) => data("posted successfully"))
+      .catch((error) => console.log(error));
 
-
-    setDate("")
-    setDescription("")
-    setCategory("")
-    setAmount("")
-  }
+    setDate("");
+    setDescription("");
+    setCategory("");
+    setAmount("");
+  };
   return (
     <div className="form">
       <form className="form-items" onSubmit={handleSubmitForm}>
@@ -50,14 +48,19 @@ function Form() {
           <h1>Transaction Form</h1>
         </div>
         <div>
-          <input className="form-input" type="text" placeholder="Date" value={date}
-          onChange={handleOnChangeDate}
+          <input
+            className="form-input"
+            type="text"
+            placeholder="Date"
+            value={date}
+            onChange={handleOnChangeDate}
           ></input>
         </div>
 
         <div>
           <div>
-            <input className="form-input"
+            <input
+              className="form-input"
               type="text"
               placeholder="Description"
               value={description}
@@ -65,7 +68,7 @@ function Form() {
             ></input>
           </div>
           <input
-          className="form-input"
+            className="form-input"
             type="text"
             placeholder="Category"
             value={category}
@@ -73,10 +76,12 @@ function Form() {
           ></input>
         </div>
         <div>
-          <input 
-          className="form-input"
-          type="text" placeholder="Amount" value={amount}
-          onChange={handleOnChangeAmount}
+          <input
+            className="form-input"
+            type="text"
+            placeholder="Amount"
+            value={amount}
+            onChange={handleOnChangeAmount}
           ></input>
         </div>
         <div>

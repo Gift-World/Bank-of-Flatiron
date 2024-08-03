@@ -6,8 +6,8 @@ import TransactionList from "./TransactionList";
 function App() {
   return (
     <div className="App">
-      <SearchBar/>
-      <Form/>
+      <SearchBar />
+      <Form />
       <TransactionList />
     </div>
   );
