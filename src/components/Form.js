@@ -47,6 +47,8 @@ function Form() {
         <div>
           <h1>Transaction Form</h1>
         </div>
+        <tr>
+            <td>
         <div>
           <input
             className="form-input"
@@ -56,8 +58,10 @@ function Form() {
             onChange={handleOnChangeDate}
           ></input>
         </div>
+        </td>
 
-        <div>
+        <td>
+            
           <div>
             <input
               className="form-input"
@@ -67,6 +71,9 @@ function Form() {
               onChange={handleOnChangeDescription}
             ></input>
           </div>
+          </td>
+          <td>
+          <div>
           <input
             className="form-input"
             type="text"
@@ -74,7 +81,10 @@ function Form() {
             value={category}
             onChange={handleOnChangeCategory}
           ></input>
-        </div>
+          </div>
+          </td>
+          <td>
+        
         <div>
           <input
             className="form-input"
@@ -84,9 +94,12 @@ function Form() {
             onChange={handleOnChangeAmount}
           ></input>
         </div>
+        </td>
+        </tr>
         <div>
           <input className="submit" type="submit" value="Add Transaction"></input>
         </div>
+        
       </form>
     </div>
   );
