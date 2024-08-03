@@ -24,7 +24,7 @@ function Form() {
     };
     // console.log("datass");
     // console.log(formData);
-    fetch("https://flatiron-bank-backend.vercel.app/transactions", {
+    fetch("https://flatiron-bank-backend-mjqx.vercel.app/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -85,7 +85,7 @@ function Form() {
           ></input>
         </div>
         <div>
-          <input type="submit" value="Add Transaction"></input>
+          <input className="submit" type="submit" value="Add Transaction"></input>
         </div>
       </form>
     </div>

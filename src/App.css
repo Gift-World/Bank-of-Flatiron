@@ -9,7 +9,11 @@
   font-size: 40px;
   font-style: italic;
 }
+.submit:hover{
+background-color: royalblue;
+transition: 2.4s;
 
+}
 .form-items {
   padding: 40px;
 }

@@ -4,7 +4,7 @@ import SingleTransac from "./SingleTransac";
 function TransactionList() {
   const [transacList, setTransacList] = useState([]);
   useEffect(() => {
-    fetch("https://flatiron-bank-backend.vercel.app/transactions")
+    fetch("https://flatiron-bank-backend-mjqx.vercel.app/transactions")
       .then((res) => res.json())
       .then((transacList) => setTransacList(transacList))
       .catch((error) => console.log(error));
