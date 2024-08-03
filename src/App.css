@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+.tableData{
+  /* background-color: red; */
+  padding: 15px;
+  /* border: 1px solid red; */
+}
+.tableDiv{
+  /* background-color: ; */
+  border: 1px solid rgb(143, 134, 134);
+}
 
 .App-logo {
   height: 40vmin;
