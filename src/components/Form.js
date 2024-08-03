@@ -48,58 +48,59 @@ function Form() {
           <h1>Transaction Form</h1>
         </div>
         <tr>
-            <td>
-        <div>
-          <input
-            className="form-input"
-            type="text"
-            placeholder="Date"
-            value={date}
-            onChange={handleOnChangeDate}
-          ></input>
-        </div>
-        </td>
+          <td>
+            <div>
+              <input
+                className="form-input"
+                type="text"
+                placeholder="Date"
+                value={date}
+                onChange={handleOnChangeDate}
+              ></input>
+            </div>
+          </td>
 
-        <td>
-            
-          <div>
-            <input
-              className="form-input"
-              type="text"
-              placeholder="Description"
-              value={description}
-              onChange={handleOnChangeDescription}
-            ></input>
-          </div>
+          <td>
+            <div>
+              <input
+                className="form-input"
+                type="text"
+                placeholder="Description"
+                value={description}
+                onChange={handleOnChangeDescription}
+              ></input>
+            </div>
           </td>
           <td>
-          <div>
-          <input
-            className="form-input"
-            type="text"
-            placeholder="Category"
-            value={category}
-            onChange={handleOnChangeCategory}
-          ></input>
-          </div>
+            <div>
+              <input
+                className="form-input"
+                type="text"
+                placeholder="Category"
+                value={category}
+                onChange={handleOnChangeCategory}
+              ></input>
+            </div>
           </td>
           <td>
-        
-        <div>
-          <input
-            className="form-input"
-            type="text"
-            placeholder="Amount"
-            value={amount}
-            onChange={handleOnChangeAmount}
-          ></input>
-        </div>
-        </td>
+            <div>
+              <input
+                className="form-input"
+                type="text"
+                placeholder="Amount"
+                value={amount}
+                onChange={handleOnChangeAmount}
+              ></input>
+            </div>
+          </td>
         </tr>
         <div>
-          <input className="submit" type="submit" value="Add Transaction"></input>
+          <input
+            className="submit"
+            type="submit"
+            value="Add Transaction"
+          ></input>
         </div>
-        
       </form>
     </div>
   );

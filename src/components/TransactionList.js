@@ -18,7 +18,20 @@ function TransactionList() {
   return (
     <div>
       <h1>Transaction List</h1>
-      {displayList}
+      <table className="table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+        {displayList}
+        </tbody>
+      </table>
+     
     </div>
   );
 }
