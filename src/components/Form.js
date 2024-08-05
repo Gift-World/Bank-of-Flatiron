@@ -52,7 +52,7 @@ function Form() {
             <div>
               <input
                 className="form-input"
-                type="text"
+                type="date"
                 placeholder="Date"
                 value={date}
                 onChange={handleOnChangeDate}
@@ -86,7 +86,7 @@ function Form() {
             <div>
               <input
                 className="form-input"
-                type="text"
+                type="number"
                 placeholder="Amount"
                 value={amount}
                 onChange={handleOnChangeAmount}
