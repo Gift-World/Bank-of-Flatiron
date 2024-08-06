@@ -6,10 +6,18 @@
 .bankheader {
   background-color: rgb(231, 223, 224);
 }
+.del:hover{
+  background-color: red;
+  transition: 0.4s;
+}
 .SearchInput{
   width: 500px;
   height: 25px;
   border-radius: 7px;
+}
+.del{
+  background-color: rgb(143, 106, 106);
+  border-radius: 10px;
 }
 .search-bar{
   padding: 10px;

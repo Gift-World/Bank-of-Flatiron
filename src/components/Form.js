@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import SearchBar from "./SearchBar";
 
 function Form() {
   const [date, setDate] = useState("2024-08-03");
@@ -6,7 +7,7 @@ function Form() {
   const [category, setCategory] = useState("");
   const [amount, setAmount] = useState("");
   //    console.log(date);
-  //    console.log(description);
+  //    console.log(description)
   //    console.log(category);
   //    console.log(amount);
 
@@ -21,6 +22,7 @@ function Form() {
       date: date,
       description: description,
       category: category,
+      amount: amount,
     };
     // console.log("datass");
     // console.log(formData);
@@ -42,9 +44,13 @@ function Form() {
     setAmount("");
   };
   return (
+    
     <div className="form">
+      
+     
       <form className="form-items" onSubmit={handleSubmitForm}>
         <div>
+       
           <h1 className="Transaction-form">Transaction Form</h1>
         </div>
         <tr>
