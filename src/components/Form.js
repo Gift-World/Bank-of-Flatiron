@@ -44,13 +44,9 @@ function Form() {
     setAmount("");
   };
   return (
-    
     <div className="form">
-      
-     
       <form className="form-items" onSubmit={handleSubmitForm}>
         <div>
-       
           <h1 className="Transaction-form">Transaction Form</h1>
         </div>
         <tr>

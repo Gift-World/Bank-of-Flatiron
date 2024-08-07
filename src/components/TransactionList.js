@@ -10,8 +10,17 @@ function TransactionList() {
       .then((transacList) => setTransacList(transacList))
       .catch((error) => console.log(error));
   }, []);
+
+
   // console.log("current state of users");
   // console.log(transacList);
+  const handleDeleteButton = (transactionToBeDeleted) => {
+  
+    const filterTransactions = transacList.filter(
+      (transaction) => transaction !== transactionToBeDeleted
+    );
+    setTransacList(filterTransactions);
+  };
 
   return (
     <div>
@@ -45,8 +54,9 @@ function TransactionList() {
                     .toLowerCase()
                     .includes(search.toLowerCase());
             })
+        
             .map((transac) => (
-              <SingleTransac transac={transac} key={transac.id} />
+              <SingleTransac transac={transac} key={transac.id} onDelete={handleDeleteButton}/>
             ))}
         </tbody>
       </table>

@@ -1,6 +1,6 @@
 import React from "react";
 
-function SingleTransac({ transac }) {
+function SingleTransac({ transac ,onDelete}) {
   return (
     <>
       <tr className="tableList">
@@ -9,7 +9,7 @@ function SingleTransac({ transac }) {
 
         <td className="tableData">{transac.category}</td>
         <td className="tableData">{transac.amount}</td>
-        <button className="del">Delete Transaction</button>
+        <button className="del" onClick={()=>onDelete(transac)}>Delete Transaction</button>
       </tr>
     </>
   );
