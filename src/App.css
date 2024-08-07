@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald:wght@200..700&family=Silkscreen:wght@400;700&display=swap');
 .App {
   text-align: center;
- background-color: rgb(246, 248, 248);
+ background-color: rgb(246, 246, 248);
 }
 .bankheader {
   background-color: rgb(231, 223, 224);
@@ -18,12 +18,14 @@
 .del{
   background-color: rgb(143, 106, 106);
   border-radius: 10px;
+  height: 40px;
 }
 .search-bar{
   padding: 10px;
 }
 .Transaction-form{
   font-family: "Fredericka the Great", serif;
+  
 
 }
 .bankheader h1 {
@@ -34,6 +36,8 @@
 }
 .form {
   background-color: rgb(148, 144, 140);
+
+
 }
 .submit {
   width: 200px;
@@ -46,6 +50,7 @@
 .table {
   padding-left: 300px;
   /* border: 2px solid rgb(219, 134, 37); */
+  
 }
 .submit:hover {
   background-color: royalblue;
@@ -54,6 +59,7 @@
 }
 .form-items {
   padding: 40px;
+  
 }
 .form-input {
   padding: 10px;
@@ -65,6 +71,7 @@
   /* background-color: red; */
   padding: 15px;
   /* border: 1px solid red; */
+  border: 2px solid rgb(155, 145, 145);
 }
 .tableDiv {
   /* background-color: ; */

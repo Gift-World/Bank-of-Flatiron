@@ -35,7 +35,7 @@ function TransactionList() {
           />
         </div>
       </form>
-      ;<h1 className="Transaction-form">Transaction List</h1>
+      <h1 className="Transaction-form">Transaction List</h1>
       <table className="table">
         <thead>
           <tr>
