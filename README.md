@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# BANK OF FLATIRON
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App]
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+- This application enables users to add transactions , delete and keep track of them
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. A reliable laptop or computer with at least 8GB RAM , core i5, 500GB HDD and stable internet access.
+2. A web browser capable of running JavaScript such as _Chrome_.
+3. An Operating System preferably Linux or Windows 10+.
+4. A text editor capable of running JavaScript such as Visual Studio Code or Sublime Text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To use this repo, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Alternative One
 
-### `npm run build`
+1.  Open the terminal/CLI on your computer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.  Clone the repository by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+            git@github.com:Gift-World/Bank-of-Flatiron.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.  Change directory to the repo folder:
 
-### `npm run eject`
+        cd Bank-of-Flatiron
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4.  Open it in your Text Editor by running the command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        code .
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Alternative Two
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- On the top right corner of this page there is a button labelled Fork.
 
-## Learn More
+- Click on Fork to create a copy of the repository to your github account.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Follow the process described in Alternative One above.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Runing the application
 
-### Code Splitting
+1. On Vs Code terminal, run `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Run the command `npm start` to start the server on your default browser.
 
-### Analyzing the Bundle Size
+- This runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- The page will reload when you make changes.\
+  You may also see any lint errors in the console.
 
-### Making a Progressive Web App
+3. Run `npm test`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- This Launches the test runner in the interactive watch mode.\
+  See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Charles Gift
