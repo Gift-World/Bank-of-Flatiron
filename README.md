@@ -4,8 +4,11 @@ This project was bootstrapped with [Create React App]
 
 ### Description
 
-- This application enables users to add transactions , delete and keep track of them
-
+- This application enables users to add transactions to the application.
+### Features
+- Users are able to:
+1. Fill the Transaction Form, Submit and reload the page to display the submitted data.
+2. Delete Transactions.
 ### Prerequisites
 
 1. A reliable laptop or computer with at least 8GB RAM , core i5, 500GB HDD and stable internet access.
@@ -57,6 +60,9 @@ To use this repo, follow these steps:
 
 - This Launches the test runner in the interactive watch mode.\
   See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+  ## Live Link
+   - https://bank-of-flatiron-seven-khaki.vercel.app/
 
 ## Author
 
